@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+ * {
+            margin: 1px 1px 10px;
+        }
+        
+        p:first-child {
+            background-color: black;
+            color: white;
+        }
+        
+        body {
+            background-color: skyblue;
+        }
+        
+        div p:last-child {
+            color: red;
+        }
+        
+        div ul {
+            width: 412px;
+        }
+        
+        div ul li:nth-child(even) {
+            background-color: slategray;
+            padding: 8px;
+            margin: 0px;
+        }
+        
+        div ul li:nth-child(3) {
+            background-color: pink;
+            padding: 8px;
+            margin: 0px;
+        }
+        
+        div ul li:nth-child(1) {
+            background-color: rgb(255, 255, 255);
+            padding: 8px;
+            margin: 0px;
+        }
+        
+        div ul li:nth-child(5) {
+            background-color: rgb(255, 255, 255);
+            padding: 8px;
+            margin: 0px;
+        }
